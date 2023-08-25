@@ -1,11 +1,12 @@
+"use strict";
 //5.	Famous Quote 2: Repeat Exercise 4, but this time store the famous person’s name in a variable called famous_person. Then compose your message and store it in a new variable called message. Print your message.
 // Storing the famous person's name in a variable
-var famous_person = "Albert Einstein";
+let famous_person = "Albert Einstein";
 // Famous quote and its author
-var quote = "Imagination is more important than knowledge.";
-var author = famous_person;
+let quote = "Imagination is more important than knowledge.";
+let author = famous_person;
 // Composing the message
-var message = "\"".concat(quote, "\" - ").concat(author);
+let message = `"${quote}" - ${author}`;
 // Printing the message
 console.log(message);
 Replace;

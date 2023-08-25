@@ -3,7 +3,7 @@
 
 
 // Storing a person's name in a variable
-let personName: string = "muhammad";
+let PersonName: string = "muhammad";
 
 // Printing the name in lowercase
 console.log("Lowercase:", personName.toLowerCase());

@@ -5,14 +5,14 @@ let famous_person: string = "Albert Einstein";
 
 // Famous quote and its author
 let quote: string = "Imagination is more important than knowledge.";
-let author: string = famous_person;
+let author:= famous_person;
 
 // Composing the message
-let message: string = `"${quote}" - ${author}`;
+let Message: string = `"${quote}"  ${author}`;
 
 // Printing the message
 console.log(message);
-Replace "Albert Einstein"// the name of the famous person you admire, and update the quote accordingly. This code will store the famous person's name in the famous_person variable, compose a message using the quote and the famous person's name, and then print the message.
+    replace "Albert Einstein"// the name of the famous person you admire, and update the quote accordingly. This code will store the famous person's name in the famous_person variable, compose a message using the quote and the famous person's name, and then print the message.
 
 
 

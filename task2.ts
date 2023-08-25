@@ -5,11 +5,11 @@
 
 //storing a person in a variable//
 
-let personName ="osama";
+let Name:String ="osama";
 
 //creating and printing the person message//
 
-let message ="How are you";
+let Personalmessage ="How are you";
 
 
 console.log(personName+" "+message);

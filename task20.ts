@@ -15,6 +15,3 @@ let mountains: string[] = [
 ];
 
 console.log("List of Famous Mountains:");
-mountains.forEach(mountain => {
-    console.log(mountain);
-});

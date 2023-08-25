@@ -2,8 +2,8 @@
 
 
 // Famous quote and its author
-let quote: string = "A rose by any other name would smell as sweet.";
-let author: string = "William Shakespeare";
+let QuoteName: string = "A rose by any other name would smell as sweet.\n";
+let AuthorName: string = "William Shakespeare\n";
 
 // Printing the quote and author
-console.log(`"${quote}" - ${author}`);
+console.log(`"${QuoteName}"  ${AuthorName}`);

@@ -1,3 +1,4 @@
+"use strict";
 18.; //	Seeing the World: Think of at least five places in the world you’d like to visit.
 //• Store the locations in a array. Make sure the array is not in alphabetical order.
 //• Print your array in its original order.
@@ -13,12 +14,12 @@
 console.log("Unfortunately, due to unforeseen circumstances, we can only invite two people for dinner.\n");
 // Remove guests until only two names remain
 while (guests.length > 2) {
-    var removedGuest = guests.pop();
-    console.log("Sorry ".concat(removedGuest, ", we won't be able to invite you to dinner this time.\n"));
+    const removedGuest = guests.pop();
+    console.log(`Sorry ${removedGuest}, we won't be able to invite you to dinner this time.\n`);
 }
 // Print messages to the remaining two guests
-guests.forEach(function (guest) {
-    console.log("Dear ".concat(guest, ", you're still invited to the dinner. Please join us!\n"));
+guests.forEach(guest => {
+    console.log(`Dear ${guest}, you're still invited to the dinner. Please join us!\n`);
 });
 // Empty the list
 guests = [];

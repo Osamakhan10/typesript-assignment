@@ -2,5 +2,5 @@
 
 const favoriteTransportation:string [] = ["honda","car","motercycle","toyota"];
 for (const Name of favoriteTransportation) {
-    console.log(`I would like a .${Name}`);
+    console.log(`I would like to own a .${Name}`);
   }
